@@ -8,7 +8,7 @@
                             PackageManager.PERMISSION_GRANTED)
                     ){
                 requestPermissions(new String[]{
-                                Manifest.permission.RECEIVE_SMS},
+                                Manifest.permission.RECEIVE_SMS,Manifest.permission.READ_SMS},
                         REQUEST_CODE_ASK_PERMISSIONS);
                 return ;
             }
